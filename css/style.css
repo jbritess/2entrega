@@ -1,0 +1,107 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-nav li {
+    padding: 0.5rem 3rem;
+}
+
+.menu-nav li a {
+    color: white;
+}
+
+.navbar-div {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel {
+    padding: 1rem 5rem;
+    padding-bottom: 10rem;
+}
+
+.carousel-item img {
+    height: 90vh;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 2rem;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+}
+
+.card img {
+    height: 35vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+}
+
+.redes {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu-footer li {
+    font-size: 1.5rem;
+}
+
+.redes a {
+    font-size: 4rem;
+}
+
+.whatsapp {
+    color: green;
+}
+
+.instagram {
+    color: rgb(228, 64, 95);
+}
+
+@media (max-widht: 480px) {
+    .footer {
+    flex-wrap: wrap;
+}
+}
+
+@media (max-widht: 480px) {
+
+    .carousel {
+        display: none;
+    }
+    .footer {
+    flex-wrap: wrap;
+    gap: 3rem;
+    }
+    iframe {
+        width: 380px;
+    }
+}
